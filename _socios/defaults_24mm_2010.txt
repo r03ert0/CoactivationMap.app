@@ -1,0 +1,10 @@
+template_file
+/Users/roberto/Documents/2005_11Coactivation/template/colin.img
+template_sag_voxels 180
+template_cor_voxels 216
+template_axi_voxels 180
+template_origin
+88 124 70
+
+voxel_size 4
+experiments 9658
