@@ -187,7 +187,7 @@ mz_bool mz_zip_extract_archive_file_to_mem_no_alloc(const char *pZip_filename, c
         NSRange range = [match range];
         range.location+=1;
         range.length-=1;
-        NSString    *link=[NSString stringWithFormat:@"http://localhost/brainspell/search?query=MeshHeadings:'%@'",[str1 substringWithRange:range]];
+        NSString    *link=[NSString stringWithFormat:@"http://brainspell.org/search?query=MeshHeadings:'%@'",[str1 substringWithRange:range]];
         [str2 addAttribute:NSLinkAttributeName value:link range:range];
         [str2 addAttribute:NSForegroundColorAttributeName value:[NSColor blueColor] range:range];
     }];
