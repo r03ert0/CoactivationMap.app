@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>29AAEC31-85EF-4A3E-B4ED-6601AE8D173F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CoactivationMap</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>661F2759-B333-4F9C-B5AF-27EAC8FC8BA4</key>
+		<string>https://github.com/r03ert0/CoactivationMap.app.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CoactivationMap.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>661F2759-B333-4F9C-B5AF-27EAC8FC8BA4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/r03ert0/CoactivationMap.app.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>661F2759-B333-4F9C-B5AF-27EAC8FC8BA4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>661F2759-B333-4F9C-B5AF-27EAC8FC8BA4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoactivationMap</string>
+		</dict>
+	</array>
+</dict>
+</plist>
