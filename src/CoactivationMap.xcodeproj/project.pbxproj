@@ -177,7 +177,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0500;
 			};
 			buildConfigurationList = 62BAC8A20C7F10E000A0C4D0 /* Build configuration list for PBXProject "CoactivationMap" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -300,6 +300,7 @@
 		62BAC8A30C7F10E000A0C4D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};

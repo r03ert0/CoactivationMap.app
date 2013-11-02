@@ -1,0 +1,476 @@
+TCoactivationMap
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Info.plist /Users/roberto/Applications/brainbits/CoactivationMap/src/Info.plist
+cStripNIB /Users/roberto/Applications/brainbits/CoactivationMap/src/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource sagittal.icns build/Release/CoactivationMap.app/Contents/Resources/sagittal.icns
+cProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.o /Users/roberto/Applications/brainbits/CoactivationMap/src/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.o /Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.o /Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.o /Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.o /Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/MacOS/CoactivationMap normal x86_64
+cTouch /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app
+
+N/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005243E79F00000000000000AA
+t1380181919
+s170
+
+N/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052691997000000000000044C
+t1382619543
+s1100
+
+N/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005269199700000000000001DB
+t1382619543
+s475
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000526777B600000000000066C0
+t1382512566
+s26304
+
+N/System/Library/Frameworks/WebKit.framework/WebKit
+c00000000526777CA00000000003F4090
+t1382512586
+s4145296
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch
+c000000005274352800000000000000A1
+t1383347496
+s161
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/English.lproj/InfoPlist.strings
+c0000000052743528000000000000012E
+t1383347496
+s302
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/English.lproj/MainMenu.nib
+c000000005274C2C90000000000000088
+t1383383753
+s136
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/Info.plist
+c00000000527435280000000000000369
+t1383347496
+s873
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m
+c000000005274BBFA00000000000016C9
+t1383382010
+s5833
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m
+c00000000527435280000000000002998
+t1383347496
+s10648
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/CoactivationMap.LinkFileList
+c000000005274C2C900000000000002EF
+t1383383753
+s751
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.o
+t1383383755
+s88096
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.o
+t1383383754
+s30308
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.o
+t1383383754
+s11336
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.o
+t1383383754
+s1716
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.o
+t1383383754
+s776
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app
+t1383383753
+s102
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Info.plist
+t1383383753
+s1302
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/MacOS/CoactivationMap
+t1383383755
+s98176
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/PkgInfo
+t1383383753
+s8
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1383383753
+s302
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources/English.lproj/MainMenu.nib
+t1383383753
+s35752
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources/sagittal.icns
+t1383383753
+s40416
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c
+c0000000052743528000000000000282E
+t1383347496
+s10286
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.c
+c00000000527435280000000000000392
+t1383347496
+s914
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/main.m
+c00000000527435280000000000000108
+t1383347496
+s264
+
+N/Users/roberto/Applications/brainbits/CoactivationMap/src/sagittal.icns
+c00000000527435280000000000009DE0
+t1383347496
+s40416
+
+N/var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch.pch
+t1383383753
+s110292
+
+N/var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch.pch
+t1383383754
+s13708920
+
+CBuild AST from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m
+r0
+
+CBuild AST from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m
+r0
+
+CBuild AST from /Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c
+r0
+
+CBuild AST from /Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.c
+r0
+
+CBuild AST from /Users/roberto/Applications/brainbits/CoactivationMap/src/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies785ec649fa24b841^890bd849fa24b841^---0#1#1#--18"Check dependencies36"B2E59977-615E-48F9-935A-DDF551B24988-
+
+CCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.o /Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405076554.541103
+e405076555.380591
+r1
+xCompileC
+xbuild/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.o
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/defaults.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/colourmap.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/miniz.c
+o/Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m:76:8: warning: 'setRequiredFileType:' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+o        [save setRequiredFileType:@"tif"];
+o              ^
+oIn file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m:1:
+oIn file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch:6:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:76:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:8:
+o/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:305:1: note: method 'setRequiredFileType:' declared here
+o- (void)setRequiredFileType:(NSString *)type NS_DEPRECATED_MAC(10_0, 10_6);
+o^
+o/Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m:81:14: warning: 'filename' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+o                path=[save filename];
+o                           ^
+oIn file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m:1:
+oIn file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch:6:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:76:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:8:
+o/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:295:1: note: method 'filename' declared here
+o- (NSString *)filename NS_DEPRECATED_MAC(10_0, 10_6);
+o^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m194"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.o MyAppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler25948a4afa24b841^f46d614bfa24b841^-2715"/Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m:76:8: warning: 'setRequiredFileType:' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]        [save setRequiredFileType:@"tif"];              ^In file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m:1:In file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch:6:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:76:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:8:/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:305:1: note: method 'setRequiredFileType:' declared here- (void)setRequiredFileType:(NSString *)type NS_DEPRECATED_MAC(10_0, 10_6);^/Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m:81:14: warning: 'filename' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]                path=[save filename];                           ^In file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m:1:In file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch:6:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:76:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:8:/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:295:1: note: method 'filename' declared here- (NSString *)filename NS_DEPRECATED_MAC(10_0, 10_6);^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@67"'setRequiredFileType:' is deprecated: first deprecated in OS X 10.6-405076555#18446744073709551615#0#1(2@43"Method 'setRequiredFileType:' declared here-405076555#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@183"file:///Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h0000000000000000^304#0#304#0#15791#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m0000000000000000^75#7#75#7#2558#0#12"Deprecations--2@55"'filename' is deprecated: first deprecated in OS X 10.6-405076555#18446744073709551615#0#1(2@31"Method 'filename' declared here-405076555#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@183"file:///Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h0000000000000000^294#0#294#0#15316#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@82"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m0000000000000000^80#13#80#13#2693#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@82"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m0000000000000000^2912"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.o MyAppController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/CoactivationMap.hmap -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources/x86_64 -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources -F/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.d --serialize-diagnostics /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.dia -c /Users/roberto/Applications/brainbits/CoactivationMap/src/MyAppController.m -o /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.o36"32DA22B9-97E3-4D02-970D-607E4FC24836-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.o /Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405076554.541299
+e405076554.687674
+r1
+xCompileC
+xbuild/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.o
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/defaults.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/colourmap.h
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.h
+o/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:121:8: warning: instance method '-redrawAndUpdate:' not found (return type defaults to 'id') [-Wobjc-method-access]
+o        [ctrl redrawAndUpdate:self];
+o              ^~~~~~~~~~~~~~~
+o/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:360:8: warning: 'setRequiredFileType:' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+o        [save setRequiredFileType:@"txt"];
+o              ^
+oIn file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:1:
+oIn file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch:6:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:76:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:8:
+o/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:305:1: note: method 'setRequiredFileType:' declared here
+o- (void)setRequiredFileType:(NSString *)type NS_DEPRECATED_MAC(10_0, 10_6);
+o^
+o/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:365:25: warning: 'filename' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]
+o                f=fopen((char*)[[save filename] UTF8String],"w");
+o                                      ^
+oIn file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:1:
+oIn file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch:6:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:76:
+oIn file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:8:
+o/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:295:1: note: method 'filename' declared here
+o- (NSString *)filename NS_DEPRECATED_MAC(10_0, 10_6);
+o^
+o3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m188"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.o MyVolumeView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilereca08a4afa24b841^f20ab04afa24b841^-3000"/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:121:8: warning: instance method '-redrawAndUpdate:' not found (return type defaults to 'id') [-Wobjc-method-access]        [ctrl redrawAndUpdate:self];              ^~~~~~~~~~~~~~~/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:360:8: warning: 'setRequiredFileType:' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]        [save setRequiredFileType:@"txt"];              ^In file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:1:In file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch:6:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:76:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:8:/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:305:1: note: method 'setRequiredFileType:' declared here- (void)setRequiredFileType:(NSString *)type NS_DEPRECATED_MAC(10_0, 10_6);^/Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:365:25: warning: 'filename' is deprecated: first deprecated in OS X 10.6 [-Wdeprecated-declarations]                f=fopen((char*)[[save filename] UTF8String],"w");                                      ^In file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m:1:In file included from /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch:6:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h:13:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h:76:In file included from /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSOpenPanel.h:8:/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h:295:1: note: method 'filename' declared here- (NSString *)filename NS_DEPRECATED_MAC(10_0, 10_6);^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@76"Instance method '-redrawAndUpdate:' not found (return type defaults to 'id')-405076554#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m0000000000000000^120#7#120#7#3687#0#14"Semantic Issue1(3@79"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m0000000000000000^120#7#120#22#3687#0#-2@67"'setRequiredFileType:' is deprecated: first deprecated in OS X 10.6-405076554#18446744073709551615#0#1(2@43"Method 'setRequiredFileType:' declared here-405076554#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@183"file:///Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h0000000000000000^304#0#304#0#15791#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m0000000000000000^359#7#359#7#10286#0#12"Deprecations--2@55"'filename' is deprecated: first deprecated in OS X 10.6-405076554#18446744073709551615#0#1(2@31"Method 'filename' declared here-405076554#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@183"file:///Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSSavePanel.h0000000000000000^294#0#294#0#15316#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@79"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m0000000000000000^364#24#364#24#10432#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@79"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m0000000000000000^2894"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.o MyVolumeView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/CoactivationMap.hmap -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources/x86_64 -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources -F/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.d --serialize-diagnostics /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.dia -c /Users/roberto/Applications/brainbits/CoactivationMap/src/MyVolumeView.m -o /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.o36"16C297EA-2DB2-4492-A455-7B7DD5E1C513-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.o /Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s405076554.541645
+e405076554.675896
+r1
+xCompileC
+xbuild/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.o
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.h
+o/Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c:337:13: warning: unused variable 'n' [-Wunused-variable]
+o        int             i,j,k,n=0;
+o                              ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c178"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.o coactivation.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compileracca8a4afa24b841^4f08ad4afa24b841^-218"/Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c:337:13: warning: unused variable 'n' [-Wunused-variable]        int             i,j,k,n=0;                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@19"Unused variable 'n'-405076554#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@79"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c0000000000000000^336#12#336#12#7717#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@79"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c0000000000000000^2681"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.o coactivation.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/CoactivationMap.hmap -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources/x86_64 -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources -F/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.d --serialize-diagnostics /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.dia -c /Users/roberto/Applications/brainbits/CoactivationMap/src/coactivation.c -o /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.o36"873DFE36-2CAE-4D2C-969B-3BBED34CD779-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.o /Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s405076554.542061
+e405076554.582178
+r1
+xCompileC
+xbuild/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.o
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.c
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.c160"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.o fdr.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler30d78a4afa24b841^030a954afa24b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.c0000000000000000^2627"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.o fdr.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/CoactivationMap.hmap -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources/x86_64 -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources -F/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.d --serialize-diagnostics /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.dia -c /Users/roberto/Applications/brainbits/CoactivationMap/src/fdr.c -o /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.o36"372B9A9A-962F-478D-923C-E33BD6306AEE-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CCompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.o /Users/roberto/Applications/brainbits/CoactivationMap/src/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405076554.540895
+e405076554.561747
+r1
+xCompileC
+xbuild/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.o
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/roberto/Applications/brainbits/CoactivationMap/src/main.m172"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.o main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf4878a4afa24b841^2dcf8f4afa24b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/main.m0000000000000000^2846"CompileC build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.o main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/CoactivationMap.hmap -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources/x86_64 -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources -F/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release -include /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch -MMD -MT dependencies -MF /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.dia -c /Users/roberto/Applications/brainbits/CoactivationMap/src/main.m -o /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.o36"636441D6-A38B-40A4-9FCF-AF08DB78DE38-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CCopyStringsFile /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s405076553.829323
+e405076553.845243
+r1
+xCopyStringsFile
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings132"CopyStringsFile build/Release/CoactivationMap.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings6858d449fa24b841^419fd849fa24b841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/English.lproj/InfoPlist.strings0000000000000000^449"CopyStringsFile build/Release/CoactivationMap.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"C8EC2963-CB6C-402E-8EAB-BBB036AD3755-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CCpResource sagittal.icns build/Release/CoactivationMap.app/Contents/Resources/sagittal.icns
+s405076553.829468
+e405076553.830523
+r1
+xCpResource
+xsagittal.icns
+xbuild/Release/CoactivationMap.app/Contents/Resources/sagittal.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Release/CoactivationMap.app/Contents/Resources/sagittal.icns91"CpResource sagittal.icns build/Release/CoactivationMap.app/Contents/Resources/sagittal.icns4165d449fa24b841^ce39d849fa24b841^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources/sagittal.icns0034a8e0ddffdf42^591"CpResource sagittal.icns build/Release/CoactivationMap.app/Contents/Resources/sagittal.icns    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/roberto/Applications/brainbits/CoactivationMap/src/sagittal.icns /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources36"CFB649A1-1381-4BCF-A227-C6367A9FF198-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CLd /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/MacOS/CoactivationMap normal x86_64
+s405076555.381220
+e405076555.461223
+r1
+xLd
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/MacOS/CoactivationMap
+xnormal
+xx86_64
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/CoactivationMap.LinkFileList
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/main.o
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyAppController.o
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/MyVolumeView.o
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/coactivation.o
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/fdr.o
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/WebKit.framework/WebKit
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Link /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/MacOS/CoactivationMap81"Ld build/Release/CoactivationMap.app/Contents/MacOS/CoactivationMap normal x86_64b6a2614bfa24b841^1b13764bfa24b841^---0#0#1#--1174"Ld build/Release/CoactivationMap.app/Contents/MacOS/CoactivationMap normal x86_64    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release -F/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release -filelist /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/CoactivationMap.LinkFileList -mmacosx-version-min=10.9 -fobjc-link-runtime -framework Cocoa -framework WebKit -Xlinker -dependency_info -Xlinker /Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/Objects-normal/x86_64/CoactivationMap_dependency_info.dat -o /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/MacOS/CoactivationMap36"95F9AC6A-7585-4880-A232-FFD98E554030-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CProcessInfoPlistFile /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Info.plist /Users/roberto/Applications/brainbits/CoactivationMap/src/Info.plist
+s405076553.827513
+e405076553.828817
+r1
+xProcessInfoPlistFile
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Info.plist
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Process /Users/roberto/Applications/brainbits/CoactivationMap/src/Info.plist85"ProcessInfoPlistFile build/Release/CoactivationMap.app/Contents/Info.plist Info.plist22e1d349fa24b841^7b31d849fa24b841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/Info.plist0000000000000000^523"ProcessInfoPlistFile build/Release/CoactivationMap.app/Contents/Info.plist Info.plist    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    builtin-infoPlistUtility /Users/roberto/Applications/brainbits/CoactivationMap/src/Info.plist -genpkginfo /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Info.plist36"84CC55AD-A726-4E72-BA6B-FE2ABE695629-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CProcessPCH /Users/roberto/Library/Developer/Xcode/DerivedData/CoactivationMap-arygefxrqrdfpxhbvdqgobyxzlwx/Index/PrecompiledHeaders/CoactivationMap_Prefix-bklpfmreczaochabpfvrbzylzjcv_ast/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/roberto/Library/Developer/Xcode/DerivedData/CoactivationMap-arygefxrqrdfpxhbvdqgobyxzlwx/Index/PrecompiledHeaders/CoactivationMap_Prefix-fmargedwryfbsggveasnqhdzjvwe_ast/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s405076553.845971
+e405076553.858567
+r1
+xProcessPCH
+x/var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch.pch
+xCoactivationMap_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile CoactivationMap_Prefix.pch298"ProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerdc9ed849fa24b841^b0c5de49fa24b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch0000000000000000^2754"ProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/CoactivationMap.hmap -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources/x86_64 -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources -F/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release --serialize-diagnostics /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch.d -c /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch -o /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-cfmbxxybcpwhybfydyflhynzmatv/CoactivationMap_Prefix.pch.pch36"5B4984E0-347B-44D4-8229-7C454A7E292C-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s405076553.845742
+e405076554.540286
+r1
+xProcessPCH
+x/var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch.pch
+xCoactivationMap_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile CoactivationMap_Prefix.pch308"ProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf391d849fa24b841^a8538a4afa24b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch0000000000000000^2967"ProcessPCH /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch.pch CoactivationMap_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    setenv LANG en_US.US-ASCII    /Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -fvisibility=hidden -Wno-sign-conversion -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/CoactivationMap.hmap -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/include -I/Applications/_Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources/x86_64 -I/Users/roberto/Applications/brainbits/CoactivationMap/src/build/CoactivationMap.build/Release/CoactivationMap.build/DerivedSources -F/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release --serialize-diagnostics /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch.d -c /Users/roberto/Applications/brainbits/CoactivationMap/src/CoactivationMap_Prefix.pch -o /var/folders/w1/qnhkrsc97nddjm3vf00ppx940000gn/C/com.apple.DeveloperTools/5.0.1-5A2053/Xcode/SharedPrecompiledHeaders/CoactivationMap_Prefix-dshtekpmoyjpoggpjsnnwoajyatc/CoactivationMap_Prefix.pch.pch36"6639265E-155A-495E-A4CA-9462E740FD0F-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CStripNIB /Users/roberto/Applications/brainbits/CoactivationMap/src/English.lproj/MainMenu.nib
+s405076553.829156
+e405076553.837179
+r1
+xStripNIB
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/English.lproj/MainMenu.nib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Processing /Users/roberto/Applications/brainbits/CoactivationMap/src/English.lproj/MainMenu.nib35"StripNIB English.lproj/MainMenu.nib1d56d449fa24b841^b43bd849fa24b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/roberto/Applications/brainbits/CoactivationMap/src/English.lproj/MainMenu.nib/0000000000000000^546"StripNIB English.lproj/MainMenu.nib    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    setenv XCODE_DEVELOPER_USR_PATH /Applications/_Programming/Xcode.app/Contents/Developer/usr/bin/..    /Applications/_Programming/Xcode.app/Contents/Developer/usr/bin/ibtool --strip /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/roberto/Applications/brainbits/CoactivationMap/src/English.lproj/MainMenu.nib36"D4808294-98BB-4FE8-9FCE-96B88E4EF6A7-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+
+CTouch /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app
+s405076555.462012
+e405076555.465036
+r1
+xTouch
+x/Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Touch /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app39"Touch build/Release/CoactivationMap.app224f764bfa24b841^520d774bfa24b841^---0#0#1#--219"Touch build/Release/CoactivationMap.app    cd /Users/roberto/Applications/brainbits/CoactivationMap/src    /usr/bin/touch -c /Users/roberto/Applications/brainbits/CoactivationMap/src/build/Release/CoactivationMap.app36"FE670125-C83C-403F-BD22-4C5089ADE4EC-
+b3F454E12-835C-4B74-9059-064C7857E1AB
+

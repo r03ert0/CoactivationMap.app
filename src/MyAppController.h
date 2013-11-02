@@ -11,6 +11,8 @@
     IBOutlet NSObjectController	*settings;
     IBOutlet MyVolumeView		*stereo;
 	IBOutlet WebView			*help;
+    IBOutlet NSWindow           *pref;
+    IBOutlet NSTextField        *prefMsg;
 
 	int				oxs,oxc,oxa;
 	short			*vol;

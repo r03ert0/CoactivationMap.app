@@ -35,7 +35,8 @@
 }
 -(NSString*)stringValue
 {
-	return @"http://cerebrum.pbwiki.com/coactivationmap";
+	//return @"http://cerebrum.pbwiki.com/coactivationmap";
+	return @"https://github.com/r03ert0/CoactivationMap.app/wiki";
 }
 -(IBAction)redrawAndUpdate:(id)sender
 {
@@ -91,6 +92,42 @@
 	[[settings content] setValue:[NSNumber numberWithFloat:thr] forKey:@"thresh"];
 	[self redrawAndUpdate:self];
 }
+- (IBAction)downloadDataFromNITRC:(id)sender
+{
+	NSString	*urlText=@"http://www.nitrc.org/projects/cmap/";
+	//NSString	*urlText=@"http://www.nitrc.org/frs/?group_id=761&release_id=2410";
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:urlText]];
+}
+- (IBAction)chooseDataPath:(id)sender
+{
+    NSOpenPanel *op=[NSOpenPanel openPanel];
+    NSString	*filename;
+    int			result;
+    
+    [op setCanChooseDirectories:YES];
+    [op setCanChooseFiles:NO];
+    result=[op runModal];
+    if (result!=NSOKButton)
+        return;
+    filename=[[[op URLs] objectAtIndex:0] path];
+    strcpy(gd.coin_dir,[[[[op URLs] objectAtIndex:0] path] UTF8String]);
+    
+    [[[NSUserDefaultsController sharedUserDefaultsController] values] setValue:filename forKey:@"dataDirectoryPath"];
+}
+- (IBAction)updateGlobalSettings:(id)sender
+{
+    if([[sender stringValue] isEqualToString:@"OK"])
+        [stereo setGlobalDefaults:&gd];
+    [pref performClose:self];
+}
+-(NSWindow*)pref
+{
+    return pref;
+}
+-(id)prefMsg
+{
+    return prefMsg;
+}
 
 #pragma mark -
 mz_bool mz_zip_extract_archive_file_to_mem_no_alloc(const char *pZip_filename, const char *pArchive_name, void *pBuf, size_t buf_size, mz_uint flags)
@@ -130,14 +167,14 @@ mz_bool mz_zip_extract_archive_file_to_mem_no_alloc(const char *pZip_filename, c
 	[[settings content] setValue:[NSNumber numberWithInt:c] forKey:@"xcor"];
 	[[settings content] setValue:[NSNumber numberWithInt:a] forKey:@"xaxi"];
 	
-    sprintf(zipfile,"%s/map/coincidences.zip",gd.coin_dir);
+    sprintf(zipfile,"%s/coincidences.zip",gd.coin_dir);
     sprintf(file,"%03i%03i%03i.img",s,c,a);
     result=mz_zip_extract_archive_file_to_mem_no_alloc(zipfile,file,(void *)vol,gd.LR*gd.IS*gd.PA*sizeof(short),zipflags);
     if(result==0)
 		for(i=0;i<gd.LR*gd.PA*gd.IS;i++) vol[i]=0;
 	[stereo setVolume:vol];
     
-    sprintf(zipfile,"%s/map/top100.zip",gd.coin_dir);
+    sprintf(zipfile,"%s/top100.zip",gd.coin_dir);
     sprintf(file,"%03i%03i%03i.top100.0.txt",s,c,a);
     str=(char*)mz_zip_extract_archive_file_to_heap(zipfile, file, &sz, zipflags);
     if(sz==0)

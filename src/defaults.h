@@ -21,13 +21,16 @@ typedef struct
 	int		N;
 }GlobalDefaults;
 
-static void defaults(char *d, GlobalDefaults *gd);
-static void defaults(char *d, GlobalDefaults *gd)
+static int defaults(char *d, GlobalDefaults *gd);
+static int defaults(char *d, GlobalDefaults *gd)
 {
 	FILE	*f;
 	char	s[256],c[256];	
 
 	f=fopen(d,"r");
+    
+    if(f==nil)
+        return 0;
 	while(!feof(f))
 	{
 		s[0]=c[0]='\n';
@@ -79,6 +82,8 @@ static void defaults(char *d, GlobalDefaults *gd)
 	gd->t2c[4]=0;						gd->t2c[5]=1;						gd->t2c[6]=0;						gd->t2c[7]=0;
 	gd->t2c[8]=0;						gd->t2c[9]=0;						gd->t2c[10]=1;						gd->t2c[11]=0;
 	gd->t2c[12]=gd->TORI[0];			gd->t2c[13]=gd->TORI[1];			gd->t2c[14]=gd->TORI[2];			gd->t2c[15]=1;
+    
+    return 1;
 }
 
 #endif

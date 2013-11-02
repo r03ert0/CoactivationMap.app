@@ -135,35 +135,52 @@
 }
 -(void)setGlobalDefaults:(GlobalDefaults*)theGd
 {
-		gd=theGd;
+    gd=theGd;
 
-		printf("loading defaults\n");
-		NSString	*c=[NSString stringWithFormat:@"%@/..",[[NSBundle mainBundle] bundlePath]];
-        NSString	*d=[NSString stringWithFormat:@"%@/map/defaults.txt",c];
-		NSString	*s=[NSString stringWithFormat:@"%@/map/sum.img",c];
-		NSString	*t=[NSString stringWithFormat:@"%@/map/colin180.img",c];
-		FILE		*f;
-		
-		defaults((char*)[d UTF8String],gd);
-		strcpy(gd->coin_dir,(char*)[c UTF8String]);
-		strcpy(gd->sum_file,(char*)[s UTF8String]);
-		strcpy(gd->temp_file,(char*)[t UTF8String]);
-		
-		tmpl=(char*)calloc(gd->TSAG*gd->TCOR*gd->TAXI,sizeof(char));
-		f=fopen((char*)[t UTF8String],"r");
-		fread(tmpl,gd->TSAG*gd->TCOR*gd->TAXI,sizeof(char),f);
-		fclose(f);
+    printf("loading defaults\n");
+    NSString    *c=[[[NSUserDefaultsController sharedUserDefaultsController] values]valueForKey:@"dataDirectoryPath"];
 
-		sum=(short*)calloc(gd->TSAG*gd->TCOR*gd->TAXI,sizeof(short));
-		f=fopen(gd->sum_file,"r");
-		fread(sum,gd->TSAG*gd->TCOR*gd->TAXI,sizeof(short),f);
-		fclose(f);
+    if(c==nil)
+    {
+        [[ctrl prefMsg] setStringValue:@"CoactivationMap requires a local copy of the Brain Coactivation Map data. Choose the path to the data or download it from NITRC (~2 GB), and restart the application."];
+        [[ctrl pref] makeKeyAndOrderFront:self];
+        return;
+    }
 
-		zo=2.32; // zoom
-		image=nil;
-		tmpl_image=nil;
-		[[self window] makeFirstResponder:self];
-		[[self window] setAcceptsMouseMovedEvents:YES];
+    //NSString	*c=[NSString stringWithFormat:@"%@/..",[[NSBundle mainBundle] bundlePath]];
+    NSString	*d=[NSString stringWithFormat:@"%@/defaults.txt",c];
+    NSString	*s=[NSString stringWithFormat:@"%@/sum.img",c];
+    NSString	*t=[NSString stringWithFormat:@"%@/colin180.img",c];
+    FILE		*f;
+    int         result;
+    
+    result=defaults((char*)[d UTF8String],gd);
+    
+    if(result==0)
+    {
+        [[ctrl prefMsg] setStringValue:@"The current path to the Brain Coactivation Map data does not contain the appropriate type of data. Change the path or download a new copy from NITRC (~2 GB), and restart the application."];
+        [[ctrl pref] makeKeyAndOrderFront:self];
+        return;
+    }
+    strcpy(gd->coin_dir,(char*)[c UTF8String]);
+    strcpy(gd->sum_file,(char*)[s UTF8String]);
+    strcpy(gd->temp_file,(char*)[t UTF8String]);
+    
+    tmpl=(char*)calloc(gd->TSAG*gd->TCOR*gd->TAXI,sizeof(char));
+    f=fopen((char*)[t UTF8String],"r");
+    fread(tmpl,gd->TSAG*gd->TCOR*gd->TAXI,sizeof(char),f);
+    fclose(f);
+
+    sum=(short*)calloc(gd->TSAG*gd->TCOR*gd->TAXI,sizeof(short));
+    f=fopen(gd->sum_file,"r");
+    fread(sum,gd->TSAG*gd->TCOR*gd->TAXI,sizeof(short),f);
+    fclose(f);
+
+    zo=2.32; // zoom
+    image=nil;
+    tmpl_image=nil;
+    [[self window] makeFirstResponder:self];
+    [[self window] setAcceptsMouseMovedEvents:YES];
 }
 
 -(void)setVolume:(short*)newVol
