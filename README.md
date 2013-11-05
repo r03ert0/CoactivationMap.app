@@ -15,4 +15,6 @@ Coactivation Map data <a href="http://www.nitrc.org/frs/downloadlink.php/5961">f
 <li>A list of the peak coordinates for the current coactivation map can be saved by clicking on the "Save Peaks" button.</li>
 </ul>
 
-CoactivationMap.app was compiled for Mac OS X 10.9 using Xcode 5.
+<p>CoactivationMap.app was compiled for Mac OS X 10.9 using Xcode 5.</p>
+<p>Alternatively, you can also query the Brain Coactivation Map data using our command tool
+<a href="https://github.com/r03ert0/cmtool/">cmtool</a>.</p>
