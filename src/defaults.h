@@ -29,7 +29,7 @@ static int defaults(char *d, GlobalDefaults *gd)
 
 	f=fopen(d,"r");
     
-    if(f==nil)
+    if(f==0)
         return 0;
 	while(!feof(f))
 	{
