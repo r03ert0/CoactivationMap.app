@@ -334,7 +334,7 @@ void discrete_cosine_transform(float *vol, int *d)
 {
 	// based on article at http://reference.wolfram.com/legacy/applications/digitalimage/FunctionIndex/InverseDiscreteCosineTransform.html
 	float	*tmp,*coeff;
-	int		i,j,k,n=0;
+	int		i,j,k;//,n=0;
 	
     /*
      float   x[]={1,2,1,0,1,2,3,1},y[8];
