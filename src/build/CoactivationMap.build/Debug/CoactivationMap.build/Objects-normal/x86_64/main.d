@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/roberto/Applications/brainbits/CoactivationMap/src/main.m
+  /Users/roberto/Applications/brainbits/f.CoactivationMap/src/main.m

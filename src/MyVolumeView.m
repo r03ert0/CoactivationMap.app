@@ -250,6 +250,10 @@ void v_m(float *r,float *v,float *m)
         {
             val=likelihood_ratio(sum[i1], sum[i2], vol[i2],gd->N);
             disp=val/400.0;
+            /*
+            val=phi_correlation(sum[i1], sum[i2], vol[i2], gd->N);
+            disp=val;
+            */
             
             if(disp>1)	disp=1;
             if(disp<-1)	disp=-1;

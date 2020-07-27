@@ -1,0 +1,19 @@
+-x
+objective-c
+-arch
+x86_64
+-gmodules
+-fpascal-strings
+-O0
+-isysroot
+/Applications/_Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk
+-fasm-blocks
+-mmacosx-version-min=10.12
+-g
+-fvisibility=hidden
+-I/Users/roberto/Applications/brainbits/f.CoactivationMap/src/build/Debug/include
+-F/Users/roberto/Applications/brainbits/f.CoactivationMap/src/build/Debug
+x86_64-apple-darwin16.4.0
+"4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)"
+SDK_PRODUCT_BUILD_VERSION=16C58
+16C58

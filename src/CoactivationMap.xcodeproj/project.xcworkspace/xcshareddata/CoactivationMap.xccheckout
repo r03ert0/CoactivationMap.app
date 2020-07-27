@@ -10,31 +10,31 @@
 	<string>CoactivationMap</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>661F2759-B333-4F9C-B5AF-27EAC8FC8BA4</key>
+		<key>16633C6308BDC37B199488E46946FAE10E305A3D</key>
 		<string>https://github.com/r03ert0/CoactivationMap.app.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CoactivationMap.xcodeproj/project.xcworkspace</string>
+	<string>src/CoactivationMap.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>661F2759-B333-4F9C-B5AF-27EAC8FC8BA4</key>
-		<string>../..</string>
+		<key>16633C6308BDC37B199488E46946FAE10E305A3D</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/r03ert0/CoactivationMap.app.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>661F2759-B333-4F9C-B5AF-27EAC8FC8BA4</string>
+	<string>16633C6308BDC37B199488E46946FAE10E305A3D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>661F2759-B333-4F9C-B5AF-27EAC8FC8BA4</string>
+			<string>16633C6308BDC37B199488E46946FAE10E305A3D</string>
 			<key>IDESourceControlWCCName</key>
-			<string>CoactivationMap</string>
+			<string>f.CoactivationMap</string>
 		</dict>
 	</array>
 </dict>
